@@ -7,7 +7,6 @@ var characters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p
 
 
 
-
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
