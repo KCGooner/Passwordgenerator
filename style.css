@@ -5,5 +5,38 @@
     background-color: red;
     color:white;
     border-radius: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-
+.btn2 {
+    background-color: gray;
+    color: white;
+    border-radius: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+textarea {
+    min-height: 100px;
+    min-width: 400px;
+}
+textarea {
+    border-style: dashed;
+    padding: 5px;
+}
+hr {
+    max-width: 415px;
+    clear:left;
+}
+.card {
+    width: 420px;
+    margin: auto;
+    height: 220px;
+    background-color:#FFF;
+    padding:20px;
+    box-shadow: 0px 0px 10px #000000;
+}
+h2 {
+    float: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
