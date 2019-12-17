@@ -1,13 +1,13 @@
 .wrapper {
     text-align: center;
 }
-.btn {
+#generate {
     background-color: red;
     color:white;
     border-radius: 12px;
     font-family: 'Roboto Condensed', sans-serif;
 }
-.btn2 {
+#generate2 {
     background-color: gray;
     color: white;
     border-radius: 12px;
