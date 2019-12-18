@@ -7,36 +7,34 @@
 // var lowerCharacters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 
 
-// specialCharacters = prompt("Do you want special characters?");
-// numbers = prompt("Do you want numbers?");
-// upperCharacters = prompt("Do you want uppercase characters?");
-// lowerCharacters = prompt('Do you want lowercase characters?');
+var passwordLength = prompt("How many characters do you want password to be? ");
+
+// function myinput(passwordLength) {
+//   var x, number;
+
+//   x = document.querySelector.passwordLength.value;
+// }
+// if (isNaN((x) || x < 1 || x > 128)) {
+//   alert("Input not Valid");
+// }
+
+passwordLength.parseInt();
+
+
 
 function generate() {
 
-  let complexity = 20;
+  let complexity = passwordLength;
 
   let password = "";
 
   let values ="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()";
 
   for(var i=0; i <= complexity; i++) {
-  password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
+  password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length )));
   }
   document.getElementById("password").value = password;
 }
-
-
-// Write password to the #password input
-// function writePassword() {
-//   var password = generatePassword();
-//   var passwordText = document.querySelector("#password");
-
-//   passwordText.value = password;
-
-//   copyBtn.removeAttribute("disabled");
-//   copyBtn.focus();
-// }
 
 function copyToClipboard() {
   document.getElementById("password").select();
@@ -47,7 +45,3 @@ function copyToClipboard() {
   
 }
 
-// Add event listener to generate button
-// generateBtn.addEventListener("click", writePassword);
-
-// BONUS EVENT LISTENER
